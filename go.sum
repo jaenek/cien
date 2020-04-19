@@ -1,0 +1,8 @@
+github.com/chsc/gogl v0.0.0-20131111203533-c411acc846b6 h1:GHNbGLo1VfjsT+Lf7i1beWEvSHbN/GIi7pzkWAnL2zk=
+github.com/chsc/gogl v0.0.0-20131111203533-c411acc846b6/go.mod h1:82yD5XkINXAhjoaZjStP4a8vZSO3c7aAWQS3OJtBg+s=
+github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7 h1:SCYMcCJ89LjRGwEa0tRluNRiMjZHalQZrVrvTbPh+qw=
+github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7/go.mod h1:482civXOzJJCPzJ4ZOX/pwvXBWSnzD4OKMdH4ClKGbk=
+github.com/go-gl/glfw v0.0.0-20200222043503-6f7a984d4dc4 h1:5Bg3HS4orH8S9vQARwWJHnEkz0dvhRKf3xxGlyDpjhE=
+github.com/go-gl/glfw v0.0.0-20200222043503-6f7a984d4dc4/go.mod h1:vR7hzQXu2zJy9AVAgeJqvqgH9Q5CA+iKCZ2gyEVpxRU=
+github.com/veandco/go-sdl2 v0.4.1 h1:HmSBvVmKWI8LAOeCfTTM8R33rMyPcs6U3o8n325c9Qg=
+github.com/veandco/go-sdl2 v0.4.1/go.mod h1:FB+kTpX9YTE+urhYiClnRzpOXbiWgaU3+5F2AB78DPg=
