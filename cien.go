@@ -1,6 +1,7 @@
 package main
 
 import (
+	"flag"
 	"log"
 	"runtime"
 
@@ -16,9 +17,14 @@ const (
 )
 
 func main() {
+	var filepath string
+
+	flag.StringVar(&filepath, "p", "shader.frag", "Path to fragment shader file.")
+	flag.Parse()
+
 	runtime.LockOSThread()
 
-	window, err := CreateWindow(windowWidth, windowHeight, "cien")
+	window, err := CreateWindow(windowWidth, windowHeight, "cien"+filepath)
 	if err != nil {
 		log.Fatalln(err)
 	}
@@ -27,7 +33,7 @@ func main() {
 	version := gl.GoStr(gl.GetString(gl.VERSION))
 	log.Println("OpenGL version", version)
 
-	s, err := CreateShader("shader.frag")
+	s, err := CreateShader(filepath)
 	if err != nil {
 		log.Fatalln(err)
 	}
