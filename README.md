@@ -1,7 +1,7 @@
 # cien
 Live-coding shader viewer written in go.
 
-# Usage
+## Usage
 ```
 -p <filepath>
 ```
